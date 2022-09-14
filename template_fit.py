@@ -13,7 +13,7 @@ class LXeTemplate():
     def __init__(self) -> None:
         pass
 
-    def form_template(self, xs, ys, weights=None, normalize=0):  # what are the weights ?
+    def form_template(self, xs, ys, weights=None, normalize=0): 
         
         #shift such that the peak of the template lies at x = 0
         these_ys = np.array(ys)
